@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import WebsiteHeader from './WebsiteHeader';
 
 export default class Navigation extends Component {
     render() {

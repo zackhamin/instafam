@@ -20,3 +20,35 @@
 .App-link {
   color: #09d3ac;
 }
+
+.navBar {
+  max-height: 40px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+}
+.navigationBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+}
+.navBarItems {
+  min-height: 26px;
+  max-height: 26px;
+}
+#instaTitle {
+  padding-top:8px;
+}
+.linkTo {
+  text-decoration: none;
+}
+.chat {
+  min-height: 50px;
+  max-height: 50px;
+  border: 1px solid black
+}
+.profilePic {
+  border-radius: 50%;
+  height: 50px;
+  max-height: 50px;
+  width: 50px;
+  max-width: 50px;
+}
