@@ -1,0 +1,22 @@
+
+
+.logos{
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  text-align: center;
+  padding-top: 20px;
+  
+}
+
+
+.icon{
+  font-size: 40px;
+}
+
+
