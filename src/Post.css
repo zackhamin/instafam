@@ -1,0 +1,53 @@
+.user{
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    align-content: center;   
+    height: 200px;
+    outline: 3px solid red;
+}
+.userimg{
+    position: relative;
+    border-radius: 100% 100%;
+    height: 100%;
+    width: 20%;
+}
+.username{
+    position: relative;
+    font-size: 700%;
+}
+.options{
+    position: relative;
+    font-size: 700%;
+}
+.mainpost{
+    position: relative;
+    outline: 3px solid green;
+    width: 100%;
+    height: 1000px;
+    background-image: url(./images/ted1.jpg);
+    background-size: cover;
+}
+.bottombar{
+    position: relative;
+    display: flexbox;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100px;
+    outline: 3px solid red;
+}
+.heart{
+    height: 90px;
+    width: 90px;
+}
+.bubble{
+    height: 90px;
+    width: 90px;
+}
+.forward{
+    height: 90px;
+    width: 90px;
+}
+
+
