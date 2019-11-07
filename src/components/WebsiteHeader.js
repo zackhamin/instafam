@@ -11,8 +11,8 @@ export default class WebsiteHeader extends Component {
         return (
             <div className="navigationBar">
                 <Link to="/Camera"><img src={cameraIcon} id="cameraIcon" className="navBarItems"/></Link>
-                <Link to="/"><img src={instaTitle} alt="Instagram title" id="instaTitle" className="navBarItems"/></Link>
-                <div>
+                <Link to="/"><img src={instaTitle} id="instaTitle" className="navBarItems"/></Link>
+                <div class="enditemsContainer">
                     <Link to="/InstagramTV"><img src={tvIcon} alt="Instagram tv" id="instaTv" className="navBarItems"/></Link>
                     <Link to="/Messages"><img src={messageIcon} alt="Instagram messages" id="instaMessages" className="navBarItems"/></Link>
                 </div>

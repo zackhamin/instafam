@@ -1,28 +1,36 @@
 import React, { Component } from 'react'
-import '../Post.css'
 import ted from '../images/ted.jpg'
 import heart1 from '../images/heart1.png'
 import bubble from '../images/bubble.png'
 import forward from '../images/forward.jpg'
+import ted2 from '../images/ted1.jpg'
 
-
-export default class Post extends Component {
-    render() {
-        return (
-            <div>
-                <div className="user">
-                    <img className="userimg" src={ted} alt="" />
-                    <h2 className="username">Ted</h2>
-                    <h2 className="options">...</h2>
+export default function Post(props) {
+    return (
+        <div className='post'>
+            <div className="user">
+                <div className="profileHolder">
+                    <img className="profilePic" src={props.pfp} alt="" />
+                    <p className="username"><b>{props.username}</b></p>
                 </div>
-                <div className="mainpost">
+                <p className="options"><b>...</b></p>
+            </div>
+            <div className="mainpost">
+                <img src={props.postpic}></img>
+            </div>
+            <div className="bottombox">
+                <div className="interactBox">
+                    <img className="interactIcon" src={heart1} alt="like" />
+                    <img className="interactIcon" src={bubble} alt="comment" />
+                    <img className="interactIcon" src={forward} alt="send" />
                 </div>
-                <div className="bottombar">
-                    <img className="heart" src={heart1} alt="" />
-                    <img className="bubble" src={bubble} alt="" />
-                    <img className="forward" src={forward} alt="" />
+                <div className="imageCaption">
+                    <p><b>{props.likes} likes</b></p>
+                    <p><b>{props.username}:</b> {props.caption}</p>
+                    <p className='greyedText'>{props.time} ago</p>
                 </div>
             </div>
-        )
-    }
+        </div>
+    )
+
 }
