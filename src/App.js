@@ -10,6 +10,8 @@ import Search from './components/Search'
 import Messages from './components/Messages';
 import Activity from './components/activity'
 import ActivityHeader from './components/Activityheader';
+import Liked from './Liked'
+
 
 class App extends React.Component {
     render() {
