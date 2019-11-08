@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import heart1 from '../images/heart1.png'
 import bubble from '../images/bubble.png'
 import forward from '../images/forward.jpg'
+import Liked from './Liked'
 
 export default function Post(props) {
     return (
@@ -23,7 +24,7 @@ export default function Post(props) {
                     <img className="interactIcon" src={forward} alt="send" />
                 </div>
                 <div className="imageCaption">
-                    <p><b>{props.likes} likes</b></p>
+                    <Liked />
                     <p><b>{props.username}:</b> {props.caption}</p>
                     <p className='greyedText'>{props.time} ago</p>
                 </div>
