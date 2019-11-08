@@ -10,6 +10,8 @@ import Search from './components/Search'
 import Messages from './components/Messages';
 import Activity from './components/activity'
 import ActivityHeader from './components/Activityheader';
+import Profile from './components/ProfilePage';
+import ProfileHeader from './components/ProfileHeader';
 
 
 class App extends React.Component {
@@ -43,6 +45,13 @@ class App extends React.Component {
                             <div>
                                 <ActivityHeader />
                                 <Activity />
+                                <BottomBar/>
+                            </div>                                                        
+                        } />
+                            <Route exact path='/Profile' render={() =>
+                            <div>
+                                <ProfileHeader />
+                                <Profile />
                                 <BottomBar/>
                             </div>
                         } />
