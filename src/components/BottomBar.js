@@ -20,11 +20,11 @@ export default class BottomBar extends Component {
               <div className="img_wrap">
                 <i className="far fa-plus-square icon"></i>
               </div>
-              <div className="img_like">
+              <div className="img_wrap">
                 <Link to="/activity"><i className="far fa-heart icon"></i></Link>
               </div>
               <div className="img_wrap">
-                <i className="far fa-user icon"></i>
+                <Link to="/Profile"><i className="far fa-user icon"></i></Link>
               </div>   
             </div>
           </div>
