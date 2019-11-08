@@ -19,12 +19,11 @@ export default function Post(props) {
             </div>
             <div className="bottombox">
                 <div className="interactBox">
-                    <img className="interactIcon" src={heart1} alt="like" />
+                    <Liked />
                     <img className="interactIcon" src={bubble} alt="comment" />
                     <img className="interactIcon" src={forward} alt="send" />
                 </div>
                 <div className="imageCaption">
-                    <Liked />
                     <p><b>{props.username}:</b> {props.caption}</p>
                     <p className='greyedText'>{props.time} ago</p>
                 </div>
