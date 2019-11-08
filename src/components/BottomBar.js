@@ -12,7 +12,7 @@ export default class BottomBar extends Component {
         <div>
           <div className="logos">
               <div className="img_wrap">
-                <Link to="/"><i class="fas fa-home icon"></i></Link>
+                <Link to="/"><i className="fas fa-home icon"></i></Link>
               </div>
               <div className="img_wrap">
                 <Link to="/Search"><i className="fas fa-search icon"></i></Link>
@@ -21,7 +21,7 @@ export default class BottomBar extends Component {
                 <i className="far fa-plus-square icon"></i>
               </div>
               <div className="img_like">
-                <i className="far fa-heart icon"></i>
+                <Link to="/activity"><i className="far fa-heart icon"></i></Link>
               </div>
               <div className="img_wrap">
                 <i className="far fa-user icon"></i>

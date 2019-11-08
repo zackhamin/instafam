@@ -1,9 +1,7 @@
 import React, { Component } from 'react'
-import ted from '../images/ted.jpg'
 import heart1 from '../images/heart1.png'
 import bubble from '../images/bubble.png'
 import forward from '../images/forward.jpg'
-import ted2 from '../images/ted1.jpg'
 
 export default function Post(props) {
     return (

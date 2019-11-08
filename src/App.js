@@ -8,6 +8,8 @@ import Home from './components/Home';
 import BottomBar from './components/BottomBar'
 import Search from './components/Search'
 import Messages from './components/Messages';
+import Activity from './components/activity'
+import ActivityHeader from './components/Activityheader';
 
 class App extends React.Component {
     render() {
@@ -36,6 +38,14 @@ class App extends React.Component {
                                 <BottomBar/>
                             </div>
                         } />
+                        <Route exact path='/activity' render={() =>
+                            <div>
+                                <ActivityHeader />
+                                <Activity />
+                                <BottomBar/>
+                            </div>
+                        } />
+
                     </Switch>
                 </div>
             </BrowserRouter>
